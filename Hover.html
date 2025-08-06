@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Id Card</title>
+      <style>
+        body{
+            background:linear-gradient(135deg,rgb(207, 210, 23),#8a15c5d2);
+            font-family:Gill Sans MT;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card{
+            background-color:rgb(228, 230, 237);
+            width: 300px;
+            height: 310;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow:rgb(0, 0, 0);
+            transition: transform 0.5s;      
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        .card img{
+            border-radius:20px;
+            border: 4px solid rgb(109, 0, 54);
+            margin-bottom: 15px;
+            transition: transform 0.5s;  
+        }
+        .card h2{
+            color: rgb(154, 6, 159);
+            margin: 10px 0;
+        }
+        .card p{
+            color: rgb(80, 78, 78);
+            font-size: 18px;
+        }
+        .card button{
+            padding: 10px 20px;
+            border: none;
+            background: skyblue;
+            color: rgb(205, 33, 205);
+            font-size: 16px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition:background 0.5s;
+              transition: transform 0.5s; 
+        }
+        .card button:hover{
+            background-color: rgb(205, 212, 10);
+            transform: scale(1.05);
+      }
+        
+        .card img:hover{
+            transform: scale(1.05);
+      }
+      </style>
+    </head>
+    <body>
+        <div class="card">
+        <img src="rohith - Copy.jpg" width="150" height="150">
+        <center><h2>Rohith S</h2></center>
+        <center><p>Backend Developer</p></center>
+        <center> <button>Click</button></div></center>
+    </body>
+</html>
